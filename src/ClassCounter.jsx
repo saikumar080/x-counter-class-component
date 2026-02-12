@@ -6,11 +6,13 @@ class ClassCounter extends React.Component{
             count:0
         };
     }
+    // handing Increment button
    handleIncrement=()=>{
     this.setState((prevState)=>{
         return{count: prevState.count+1};
     })
    } 
+//    handing Decrement button
    handleDecrement=()=>{
     this.setState((prevState)=>{
         return {
